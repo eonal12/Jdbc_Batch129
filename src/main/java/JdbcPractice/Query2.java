@@ -1,10 +1,8 @@
 package JdbcPractice;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
-public class Quert2 {
+public class Query2 {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
         Class.forName("org.postgresql.Driver");
